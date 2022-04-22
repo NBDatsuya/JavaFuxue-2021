@@ -1,13 +1,26 @@
-public class Teacher extends Person{
-    
-	private String phoneNumber;
+public class Teacher {
+    private int id;
+    private String name;
+    private String phoneNumber;
 
-	public Teacher(int id,String name, String phoneNumber) {
-		super(id,name);
-		this.phoneNumber = phoneNumber;
-	}
-    public String getPhoneNumber() {
-    	return phoneNumber;
+    public Teacher(int id, String name, String phoneNumber) {
+        this.id = id;
+        this.name = name;
+        this.phoneNumber = phoneNumber;
     }
-	
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+
+
 }

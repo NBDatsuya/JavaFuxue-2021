@@ -8,14 +8,14 @@ classDiagram
         -id: int
         -name: String
         +Person(id: int, name: String)
-        +getName()
-        +getId()
+        +getName() String
+        +getId() int
     }
     class Student{
         -major: String
         +Student(id: int, name: String, major: String)
-        +getMajor()
-        +getLessons()
+        +getMajor() String
+        +getLessons() ArrayList~Lesson~
         +addLesson(lesson: Lesson)
         +depositLesson(lesson: Lesson)
         +withdrawLesson(lesson: Lesson)
@@ -23,53 +23,51 @@ classDiagram
     class Teacher{
         -phoneNumber: String
         +Teacher(id: int, name: String, phoneNumber: String)
-        +getPhoneNumber()
+        +getPhoneNumber() String
     }
     class Lesson{
         -id: int
         -name: String
         -type: String
         +Lesson(id: int, name: String, type: String)
-        +getId()
-        +getName()
-        +getType()
+        +getId() int
+        +getName() String
+        +getType() String
     }
     class Test{
-        -id: int
         -String time
         -fullScore: int
-        +Test(id: int, time: String, fullScore: int)
-        +getId()
-        +getTime()
-        +getFullScore()
+        +Test(time: String, fullScore: int)
+        +getTime() String
+        +getFullScore() int
     }
     class LessonDatabase{
         -LessonDatabase()
-        +getInstance()
-        +getLessonById()
-        +getLessons()
+        +getInstance() LessonDatabase
+        +getLessonById(id: int) Lesson
+        +getLessons() ArrayList~Lesson~
         +addLesson(name: String, type: String, test: Test)
         +addLesson(lesson: Lesson)
     }
     class StudentDatabase{
         -StudntDatabase()
-        +getInstance()
-        +getStudentById()
-        +getStudents()
+        +getInstance() StudentDatabase
+        +getStudentById(id: int) Student
+        +getStudents() ArrayList~Student~
         +addStudent(name: String, major: String)
         +addStudent(student: Student)
     }
     class TeacherDatabase{
         -TeacherDatabase()
-        +getInstance()
-        +getTeacherById()
-        +getTeachers()
+        +getInstance() TeacherDatabase
+        +getTeacherById(id: int) Teacher
+        +getTeachers() ArrayList~Teacher~
         +addTeacher(name: String, phoneNumber: String)
         +addTeacher(teacher: Teacher)
     }
     class DatabaseCountable{
         <<interface>>
-        +getSize()
+        +getSize() int
     }
     class SchoolSystem{
         +main(args: String[])
@@ -83,19 +81,19 @@ classDiagram
     DatabaseCountable <|.. TeacherDatabase
     DatabaseCountable <|.. StudentDatabase
     
-    Lesson "1" <-- "1" Test: test
+    Lesson "1" --> "1" Test: -test
     
-    Student "1" <-- "*" Lesson: lessons
+    Student "1" --> "0..*" Lesson: -lessons
     
-    LessonDatabase "1" <-- "*" Lesson: lessons
+    LessonDatabase "1" --> "0..*" Lesson: -lessons
     
-    StudentDatabase "1" <-- "*" Student: students
+    StudentDatabase "1" --> "0..*" Student: -students
     
-    TeacherDatabase "1" <-- "*" Teacher: teachers
+    TeacherDatabase "1" --> "0..*" Teacher: -teachers
     
-    SchoolSystem "1" <-- "1" LessonDatabase: lessonDatabase
-    SchoolSystem "1" <-- "1" TeacherDatabase: teacherDatabase
-    SchoolSystem "1" <-- "1" StudentDatabase: studentDatabase
+    SchoolSystem "1" --> "1" LessonDatabase: -lessonDatabase
+    SchoolSystem "1" --> "1" TeacherDatabase: -teacherDatabase
+    SchoolSystem "1" --> "1" StudentDatabase: -studentDatabase
     
     
 ```

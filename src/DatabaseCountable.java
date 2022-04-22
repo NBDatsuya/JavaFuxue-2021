@@ -1,3 +1,3 @@
 public interface DatabaseCountable {
-	public abstract int getSize();
+    public int getSize();
 }

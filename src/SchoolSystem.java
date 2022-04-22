@@ -302,7 +302,7 @@ public class SchoolSystem {
     private void showAllLessons() {
         stdOut.println("Show All Lessons");
         stdOut.println("-----------------");
-        for(Lesson lesson : lessonDatabase.getLessons()) {
+        for (Lesson lesson : lessonDatabase.getLessons()) {
             stdOut.println(lesson.getId() + " " + lesson.getName() + " " + lesson.getType());
         }
         stdOut.println();
@@ -384,7 +384,7 @@ public class SchoolSystem {
     private void showAllTeachers() {
         stdOut.println("Show All Teachers");
         stdOut.println("-----------------");
-        for(Teacher teacher : teacherDatabase.getTeachers()) {
+        for (Teacher teacher : teacherDatabase.getTeachers()) {
             stdOut.println(teacher.getId() + " " + teacher.getName() + " " + teacher.getPhoneNumber());
         }
         stdOut.println();

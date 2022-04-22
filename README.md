@@ -44,32 +44,32 @@ classDiagram
         +getFullScore()
     }
     class LessonDatabase{
-        +getLessonById()
-        +getLessons()
         -LessonDatabase()
         +getInstance()
+        +getLessonById()
+        +getLessons()
         +addLesson(name: String, type: String, test: Test)
         +addLesson(lesson: Lesson)
     }
     class StudentDatabase{
-        +getStudentById()
-        +getStudents()
         -StudntDatabase()
         +getInstance()
+        +getStudentById()
+        +getStudents()
         +addStudent(name: String, major: String)
         +addStudent(student: Student)
     }
     class TeacherDatabase{
-        +getTeacherById()
-        +getTeschers()
         -TeacherDatabase()
         +getInstance()
+        +getTeacherById()
+        +getTeachers()
         +addTeacher(name: String, phoneNumber: String)
         +addTeacher(teacher: Teacher)
     }
     class DatabaseCountable{
         <<interface>>
-        +getCountOfObject()
+        +getSize()
     }
     class SchoolSystem{
         +main(args: String[])

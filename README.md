@@ -16,7 +16,6 @@ classDiagram
         +Student(id: int, name: String, major: String)
         +getMajor() String
         +getLessons() ArrayList~Lesson~
-        +addLesson(lesson: Lesson)
         +depositLesson(lesson: Lesson)
         +withdrawLesson(lesson: Lesson)
     }

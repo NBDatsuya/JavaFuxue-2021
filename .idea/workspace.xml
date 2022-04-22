@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9b5287a-5fef-4ed1-880f-898a6e63d073" name="变更" comment="feat: 更改目录结构，开始写脚手架">
+      <change afterPath="$PROJECT_DIR$/complete/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/JavaFuxue_2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/DatabaseCountable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/Lesson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/LessonDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/SchoolSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/StudentDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/TeacherDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/out/production/JavaFuxue_2021/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/DatabaseCountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/LessonDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/SchoolSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/StudentDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/TeacherDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complete/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/JavaFuxue_2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/DatabaseCountable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/Lesson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/LessonDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/SchoolSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/StudentDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/TeacherDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/out/production/JavaFuxue_2021/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/DatabaseCountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/LessonDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/SchoolSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/StudentDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/TeacherDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part1/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/JavaFuxue_2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/DatabaseCountable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/Lesson.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/LessonDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/SchoolSystem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/StudentDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/TeacherDatabase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/out/production/JavaFuxue_2021/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/DatabaseCountable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/Lesson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/LessonDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/SchoolSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/StudentDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/TeacherDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaFuxue_2021.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseCountable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LessonDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SchoolSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeacherDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="286zGqIn30ipgYe4ovXWlDkpyIS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/zhangke200377/development/java_lesson/JavaFuxue_2021/part1",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SchoolSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SchoolSystem" />
+      <module name="JavaFuxue_2021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.SchoolSystem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e9b5287a-5fef-4ed1-880f-898a6e63d073" name="变更" comment="" />
+      <created>1650551732759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650551732759</updated>
+      <workItem from="1650551737359" duration="453000" />
+      <workItem from="1650552353195" duration="853000" />
+      <workItem from="1650553943150" duration="813000" />
+      <workItem from="1650587701342" duration="3044000" />
+      <workItem from="1650596786319" duration="5112000" />
+      <workItem from="1650603680440" duration="58000" />
+      <workItem from="1650606629288" duration="6747000" />
+      <workItem from="1650617109128" duration="30000" />
+      <workItem from="1650619589817" duration="72000" />
+      <workItem from="1650623248265" duration="88000" />
+      <workItem from="1650624223157" duration="5693000" />
+    </task>
+    <task id="LOCAL-00001" summary="update20220421 添加gitignore">
+      <created>1650551926700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650551926700</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update20220421 添加SchoolSystem主类">
+      <created>1650552478098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650552478098</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update20220421 添加SchoolSystem主类">
+      <created>1650552504205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650552504205</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update20220421 图画完睡觉了">
+      <created>1650557785605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650557785605</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update20220422 UML类图更新">
+      <created>1650592270526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650592270526</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update20220422 main基类以及课程，考试类完成">
+      <created>1650616853759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650616853759</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update20220422 UML图微调">
+      <created>1650617129186</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650617129186</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update20220422 北极熊上传">
+      <created>1650624507007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650624507007</updated>
+    </task>
+    <task id="LOCAL-00009" summary="style: 优化北极熊和lony的代码结构，将某些无意义的变量改名">
+      <created>1650625866014</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1650625866014</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix: 修改了北极熊, lony代码中的某些结构性bug，删除了一些不必要的函数，已经调通了">
+      <created>1650631426579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650631426579</updated>
+    </task>
+    <task id="LOCAL-00011" summary="style: 更新 .gitignore">
+      <created>1650631519059</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650631519059</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: 更改目录结构，开始写脚手架">
+      <created>1650633969956</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650633969956</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update20220421 添加gitignore" />
+    <MESSAGE value="update20220421 添加SchoolSystem主类" />
+    <MESSAGE value="update20220421 图画完睡觉了" />
+    <MESSAGE value="update20220422 UML类图更新" />
+    <MESSAGE value="update20220422 main基类以及课程，考试类完成" />
+    <MESSAGE value="update20220422 UML图微调" />
+    <MESSAGE value="update20220422 北极熊上传" />
+    <MESSAGE value="style: 优化北极熊和lony的代码结构，将某些无意义的变量改名" />
+    <MESSAGE value="fix: 修改了北极熊, lony代码中的某些结构性bug，删除了一些不必要的函数，已经调通了" />
+    <MESSAGE value="style: 更新 .gitignore" />
+    <MESSAGE value="feat: 更改目录结构，开始写脚手架" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 更改目录结构，开始写脚手架" />
+  </component>
+</project>

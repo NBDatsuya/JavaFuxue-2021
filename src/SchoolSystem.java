@@ -56,7 +56,82 @@ public class SchoolSystem {
     }
 
     private void setupDatabase() {
+        studentDatabase.addStudent(new Student(1, "John", "Computer Science"));
+        studentDatabase.addStudent(new Student(2, "Jane", "Computer Science"));
+        studentDatabase.addStudent(new Student(3, "Jack", "Computer Science"));
+        studentDatabase.addStudent(new Student(4, "Jill", "Computer Science"));
+        studentDatabase.addStudent(new Student(5, "Jim", "Computer Science"));
+        studentDatabase.addStudent(new Student(6, "JQ7WUDBCKny", "Computer Science"));
+        studentDatabase.addStudent(new Student(7, "Juan", "Computer Science"));
+        studentDatabase.addStudent(new Student(8, "Jenny", "Computer Science"));
+        studentDatabase.addStudent(new Student(9, "JenQI7Whdcny", "Computer Science"));
+        studentDatabase.addStudent(new Student(10, "Jen", "Computer Science"));
+        studentDatabase.addStudent(new Student(11, "Jenqrqny", "Computer Science"));
+        studentDatabase.addStudent(new Student(12, "JennKEUFHNCy", "Computer Science"));
+        studentDatabase.addStudent(new Student(13, "JenQKWUQny", "Computer Science"));
+        studentDatabase.addStudent(new Student(14, "JenAW7ny", "Computer Science"));
+        studentDatabase.addStudent(new Student(15, "Jennyaw&CU", "Computer Science"));
+        studentDatabase.addStudent(new Student(16, "Jennyai&U", "Computer Science"));
+        studentDatabase.addStudent(new Student(17, "JennyauC8Baw", "Computer Science"));
+        studentDatabase.addStudent(new Student(18, "JennAIW7GCYBah", "Computer Science"));
+        studentDatabase.addStudent(new Student(19, "JeAiyefygcb", "Computer Science"));
+        studentDatabase.addStudent(new Student(20, "JeAWI7FGCBAH", "Computer Science"));
+        studentDatabase.addStudent(new Student(21, "Jewdaiigucy", "Computer Science"));
+        studentDatabase.addStudent(new Student(22, "JennaAEIFG8ac", "Computer Science"));
+        studentDatabase.addStudent(new Student(23, "JeAWAIy", "Computer Science"));
 
+        teacherDatabase.addTeacher(new Teacher(1, "sh9aaiwudncjkzs83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(2, "sh9a8KAKKUhscn3unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(3, "sh9a83ubiz8wurjfckznda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(4, "sh9a83AHHAUEFIKunda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(5, "sh9a83uasue7a9iwuejsnda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(6, "sh9a8CUeficuejhsaws3unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(7, "sh9a83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(8, "sh9aA&Wtdiakuqjhwa83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(9, "sh9acAI*E&sud83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(10, "sh9abaiyw3uysjch83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(11, "sh9AWU6DAGIQU3AWa83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(12, "sh9a83cnanwi73u6eyfscunda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(13, "sh9a8abfecia7wueysjc3unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(14, "sh9a8bai8e7ufygcabkes3unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(15, "sh9a83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(16, "sai7e6ufygabkjwesh9a83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(17, "bsedci7aukwyjEshbdcsh9a83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(18, "sh9a83unda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(19, "sh9a83QWDQIQ3uwyajdhdsunda", "12819283728"));
+        teacherDatabase.addTeacher(new Teacher(20, "sh9a83unadiaqujaywhsbcda", "12819283728"));
+
+        lessonDatabase.addLesson(new Lesson(1, "Computer Science1", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(2, "Computer Science2", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(3, "Computer Science3", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(4, "Computer Science4", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(5, "Computer Science5", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(6, "Computer Science6", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(7, "Computer Science7", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(8, "Computer Science8", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(9, "Computer Science9", "must", new Test("2022-12-23", 100)));
+        lessonDatabase.addLesson(new Lesson(10, "Computer Science10", "must", new Test("2022-12-23", 100)));
+
+        studentDatabase.getStudentById(1).addLesson(lessonDatabase.getLessonById(1));
+        studentDatabase.getStudentById(3).addLesson(lessonDatabase.getLessonById(2));
+        studentDatabase.getStudentById(2).addLesson(lessonDatabase.getLessonById(3));
+        studentDatabase.getStudentById(4).addLesson(lessonDatabase.getLessonById(4));
+        studentDatabase.getStudentById(4).addLesson(lessonDatabase.getLessonById(5));
+        studentDatabase.getStudentById(2).addLesson(lessonDatabase.getLessonById(6));
+        studentDatabase.getStudentById(3).addLesson(lessonDatabase.getLessonById(7));
+        studentDatabase.getStudentById(23).addLesson(lessonDatabase.getLessonById(8));
+        studentDatabase.getStudentById(22).addLesson(lessonDatabase.getLessonById(9));
+        studentDatabase.getStudentById(16).addLesson(lessonDatabase.getLessonById(10));
+        studentDatabase.getStudentById(20).addLesson(lessonDatabase.getLessonById(1));
+        studentDatabase.getStudentById(15).addLesson(lessonDatabase.getLessonById(2));
+        studentDatabase.getStudentById(13).addLesson(lessonDatabase.getLessonById(3));
+        studentDatabase.getStudentById(15).addLesson(lessonDatabase.getLessonById(4));
+        studentDatabase.getStudentById(17).addLesson(lessonDatabase.getLessonById(5));
+        studentDatabase.getStudentById(10).addLesson(lessonDatabase.getLessonById(6));
+        studentDatabase.getStudentById(12).addLesson(lessonDatabase.getLessonById(7));
+        studentDatabase.getStudentById(19).addLesson(lessonDatabase.getLessonById(8));
+        studentDatabase.getStudentById(14).addLesson(lessonDatabase.getLessonById(9));
+        studentDatabase.getStudentById(5).addLesson(lessonDatabase.getLessonById(10));
     }
 
     private int getChoice(int min, int max) {
@@ -132,7 +207,6 @@ public class SchoolSystem {
                 case 6:
                     // Back
                     return;
-                break;
             }
         }
     }
@@ -173,6 +247,9 @@ public class SchoolSystem {
     }
 
     private void depositLesson(Student student) {
+        if(student == null) {
+            stdErr.println("Student Not Found");
+        }
         stdOut.println("Deposit Lesson for Student");
         stdOut.println("-----------------");
         try {
@@ -182,13 +259,16 @@ public class SchoolSystem {
             int id = Integer.parseInt(stdIn.readLine());
             Lesson lesson = lessonDatabase.getLessonById(id);
 
-            student.depositLesson(lesson);
+            student.addLesson(lesson);
         } catch (IOException e) {
             stdErr.println("Error Happened");
         }
     }
 
     private void withdrawLesson(Student student) {
+        if(student == null) {
+            stdErr.println("Student Not Found");
+        }
         stdOut.println("Withdraw Lesson for Student");
         stdOut.println("-----------------");
         try {
@@ -205,6 +285,9 @@ public class SchoolSystem {
     }
 
     private void showStudentDetails(Student student) {
+        if(student == null) {
+            stdErr.println("Student Not Found");
+        }
         stdOut.println(student.getId() + " " + student.getName() + " " + student.getMajor());
     }
 
@@ -246,7 +329,6 @@ public class SchoolSystem {
                 case 4:
                     // Back
                     return;
-                break;
             }
         }
     }
@@ -296,6 +378,9 @@ public class SchoolSystem {
     }
 
     private void showLessonDetails(Lesson lesson) {
+        if(lesson == null){
+            stdErr.println("Lesson not found");
+        }
         stdOut.println(lesson.getId() + " " + lesson.getName() + " " + lesson.getType());
     }
 
@@ -338,7 +423,6 @@ public class SchoolSystem {
                 case 4:
                     // Back
                     return;
-                break;
             }
         }
     }
@@ -378,6 +462,9 @@ public class SchoolSystem {
     }
 
     private void showTeacherDetails(Teacher teacher) {
+        if(teacher == null) {
+            stdErr.println("Teacher Not Found");
+        }
         stdOut.println(teacher.getId() + " " + teacher.getName() + " " + teacher.getPhoneNumber());
     }
 

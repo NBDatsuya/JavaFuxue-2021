@@ -3,10 +3,13 @@ public class Lesson {
     private String name;
     private String type;
 
-    public Lesson(int id, String name, String type) {
+    private Test test;
+
+    public Lesson(int id, String name, String type, Test test) {
         this.id = id;
         this.name = name;
         this.type = type;
+        this.test = test;
     }
 
     public int getId() {
@@ -19,6 +22,10 @@ public class Lesson {
 
     public String getType() {
         return type;
+    }
+
+    public Test getTest() {
+        return test;
     }
 
     public String toString() {

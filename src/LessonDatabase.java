@@ -22,7 +22,7 @@ public class LessonDatabase implements DatabaseCountable {
         return lessons.size();
     }
 
-    public Lesson getStudentById(int id) {
+    public Lesson getLessonById(int id) {
 //        Iterator<Lesson> iterator = lessons.iterator();
 //        while (iterator.hasNext()) {
 //            Lesson lesson = ddq.next();
@@ -38,13 +38,13 @@ public class LessonDatabase implements DatabaseCountable {
         return null;
     }
 
-    public ArrayList<Lesson> getStudents() {
+    public ArrayList<Lesson> getLessons() {
         return lessons;
     }
 
     public void addLesson(String name, String type, Test test) {
         int id = this.getSize() + 1;
-        Lesson lesson = new Lesson(id, name, type);
+        Lesson lesson = new Lesson(id, name, type, test);
         lessons.add(lesson);
     }
 

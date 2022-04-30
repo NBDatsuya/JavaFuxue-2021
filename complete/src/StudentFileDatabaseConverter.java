@@ -18,6 +18,8 @@ public class StudentFileDatabaseConverter extends FileDatabaseConverter{
                 ((StudentDatabase) databaseToWrite).addStudent(new Student(Integer.parseInt(tokenizer.nextToken()), tokenizer.nextToken(), tokenizer.nextToken()));
                 line = reader.readLine();
             }
+
+            reader.close();
         }catch(IOException e){
             e.printStackTrace();
         }

@@ -18,6 +18,8 @@ public class TeacherFileDatabaseConverter extends FileDatabaseConverter{
                 ((TeacherDatabase) databaseToWrite).addTeacher(new Teacher(Integer.parseInt(tokenizer.nextToken()), tokenizer.nextToken(), tokenizer.nextToken()));
                 line = reader.readLine();
             }
+
+            reader.close();
         }catch(IOException e){
             e.printStackTrace();
         }

@@ -19,6 +19,7 @@ public class LessonFileDatabaseConverter extends FileDatabaseConverter{
                 line = reader.readLine();
             }
 
+            reader.close();
         }catch(IOException e){
             e.printStackTrace();
         }

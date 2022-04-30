@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9b5287a-5fef-4ed1-880f-898a6e63d073" name="变更" comment="feat: 更改目录结构，开始写脚手架">
+    <list default="true" id="e9b5287a-5fef-4ed1-880f-898a6e63d073" name="变更" comment="feat: 脚手架完成，等待实际讲稿和文档">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/zhangke200377/development/java_lesson/JavaFuxue_2021/part1",
+    "last_opened_file_path": "/home/zhangke200377/development/java_lesson/JavaFuxue_2021/complete",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "SDK",
     "project.structure.proportion": "0.15",
@@ -73,6 +73,8 @@
       <workItem from="1650619589817" duration="72000" />
       <workItem from="1650623248265" duration="88000" />
       <workItem from="1650624223157" duration="6197000" />
+      <workItem from="1650636100009" duration="717000" />
+      <workItem from="1650685315221" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="update20220421 添加gitignore">
       <created>1650551926700</created>
@@ -165,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650634056793</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: 脚手架完成，等待实际讲稿和文档">
+      <created>1650636169210</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650636169210</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +203,7 @@
     <MESSAGE value="fix: 修改了北极熊, lony代码中的某些结构性bug，删除了一些不必要的函数，已经调通了" />
     <MESSAGE value="style: 更新 .gitignore" />
     <MESSAGE value="feat: 更改目录结构，开始写脚手架" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 更改目录结构，开始写脚手架" />
+    <MESSAGE value="feat: 脚手架完成，等待实际讲稿和文档" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 脚手架完成，等待实际讲稿和文档" />
   </component>
 </project>

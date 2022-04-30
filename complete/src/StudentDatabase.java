@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class StudentDatabase implements DatabaseCountable {
+public class StudentDatabase implements DatabaseCountable, Iterable<Student> {
     private ArrayList<Student> students;
     private static StudentDatabase instance = null;
 
@@ -50,5 +50,10 @@ public class StudentDatabase implements DatabaseCountable {
 
     public void addStudent(Student student) {
         students.add(student);
+    }
+
+    @Override
+    public Iterator<Student> iterator() {
+        return students.iterator();
     }
 }

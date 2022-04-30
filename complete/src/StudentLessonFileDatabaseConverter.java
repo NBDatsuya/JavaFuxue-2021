@@ -1,0 +1,2 @@
+public class StudentLessonFileDatabaseConverter extends FileDatabaseConverter{
+}
